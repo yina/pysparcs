@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pysparcs/__init__.py
+pysparcs.egg-info/PKG-INFO
+pysparcs.egg-info/SOURCES.txt
+pysparcs.egg-info/dependency_links.txt
+pysparcs.egg-info/entry_points.txt
+pysparcs.egg-info/not-zip-safe
+pysparcs.egg-info/top_level.txt
