@@ -1,1 +1,0 @@
-frintf('hello world/n');
