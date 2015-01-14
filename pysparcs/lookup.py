@@ -3,7 +3,8 @@
 import re
 import sys
 
-# This  will detect if before or after 50 characters of the concept contains periods. If there is, just output the strings between/after/before periods.  
+# This  will detect if before or after 50 characters of the concept contains periods. 
+# If there is, just output the strings between/after/before periods.
 class Fragment:
     def __init__(self,pos,str,keyword):
         start = pos-50 if pos-50 >= 0 else 0
