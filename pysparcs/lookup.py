@@ -32,6 +32,8 @@ class Fragment:
 # file1 is the list of umls identified concepts
 # file2: replace \t \n or multiple spaces to one space
 
+# check to see if the negex executable exists, if not, then tell user where to download
+# negex
 # consolidate to one script
 # use click if needed http://click.pocoo.org/3/
 # add documentation strings 
