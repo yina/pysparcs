@@ -32,6 +32,12 @@ class Fragment:
 # file1 is the list of umls identified concepts
 # file2: replace \t \n or multiple spaces to one space
 
+# consolidate to one script
+# use click if needed http://click.pocoo.org/3/
+# add documentation strings 
+# outfile as option
+# window size as option
+
 file1 = open(sys.argv[1],"r")
 file2 = open(sys.argv[2],"r")
 outfile = open(r'py_intonegex.txt', 'w')
