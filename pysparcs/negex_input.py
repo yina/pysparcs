@@ -25,7 +25,7 @@ def negex_input(f1,f2,outdir):
         tmp = concepts[i].rstrip()
 #        print tmp
         for lines in mynote_new: 
-            str_split = re.split(r"\t| {2,9}|\.|\;",lines)
+            str_split = re.split(r"\t| {2,9}|\.|\;",lines) # splitting on periods, semicolons, 2 to 9 multiple spaces
             for s in str_split:
                 mymatch = re.findall(tmp,s)
                 if len(mymatch)>0:
@@ -37,7 +37,14 @@ if __name__ == '__main__':
     negex_input()
     
         
-                
+# add test case
+# nosetests
+# replace tab in sentence before writing
+# intermediate file should be tmp
+# use system call to start negex
+# add pretest to see if negex exists.
+# add documentation about where breaks are.
+
             
 
 
