@@ -38,13 +38,6 @@ if __name__ == '__main__':
     negex_input()
     
         
-# add test case
-# nosetests
-# replace tab in sentence before writing
-# intermediate file should be tmp
-# use system call to start negex
-# add pretest to see if negex exists.
-# add documentation about where breaks are.
 
             
 
