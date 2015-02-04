@@ -3,6 +3,8 @@
 import re
 import sys
 import click
+#import subprocess
+import os
 
 @click.command()
 @click.option('--f1', help='extracted concepts file from cTakes without extension')
@@ -10,7 +12,6 @@ import click
 @click.option('--outdir', help='output directory')
 
 
-def negex_input(f1,f2,outdir):
     file1 = open(f1+".txt","r")
     file2 = open(f2+".txt","r")
     outfile = open(outdir+"/"+f2+'_negexinput.txt', 'w')
