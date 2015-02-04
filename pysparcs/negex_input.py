@@ -10,35 +10,49 @@ import os
 @click.option('--f1', help='extracted concepts file from cTakes without extension')
 @click.option('--f2', help='medical note file without extension')
 @click.option('--outdir', help='output directory')
+@click.option('--inputdir', help='input directory')
 
 
-    file1 = open(f1+".txt","r")
-    file2 = open(f2+".txt","r")
-    outfile = open(outdir+"/"+f2+'_negexinput.txt', 'w')
-    logfile = open(outdir+"/"+f2+'_log.txt','w')
-    outfile.write('Report No.'+'\t'+'Concept'+'\t'+'\t'+'Sentence'+'\n')
+
+def negex_input(inputdir,f1,f2,outdir):
+
+# check if negex exists, modify the path as needed.
+    if os.path.exists("/Users/yu/Documents/negex.python") != True:
+        print "Please download negex."
+    else:
+        file1 = open(inputdir+"/"+f1+".txt","r")
+        file2 = open(inputdir+"/"+f2+".txt","r")
+        
+        logfile = open(outdir+"/"+f2+'_log.txt','w')
+        outfile = open(outdir+'/'+f2+'_negexinput.txt', 'w')
+        outfile.write('Report No.'+'\t'+'Concepts'+'\t'+'Sentence'+'\n')
 
 
-    concepts = file1.readlines()
-    mynote = file2.readlines()
-    mynote_new = filter(lambda x: x not in '\n',mynote)
-    for i in range(len(concepts)):
-        tmp = concepts[i].rstrip()
-#        print tmp
-        for lines in mynote_new: 
-            str_split = re.split(r"\t| {2,9}|\.|\;",lines) # splitting on periods, semicolons, 2 to 9 multiple spaces
-            for s in str_split:
-                mymatch = re.findall(tmp,s)
-                if len(mymatch)>0:
-                    outfile.write('1'+'\t'+tmp+'\t'+"\""+s+"\""+'\n')
-                    if len(re.findall(tmp,s)) > 1:
-                        logfile.write(tmp+":Mutiple occurence in:"+s+"\n")
+        concepts = file1.readlines()
+        mynote = file2.readlines()
+        mynote_new = filter(lambda x: x not in '\n',mynote)
+        for i in range(len(concepts)):
+            cpt = concepts[i].rstrip()
+            for lines in mynote_new: 
+                str_split = re.split(r"\t| {2,9}|\.|\;",lines) # splitting on periods, semicolons, 2 to 9 multiple spaces
+                for s in str_split:
+                    mymatch = re.findall(cpt,s)
+                    if len(mymatch)>0:
+                        s = s.replace("\t"," ")
+                        outfile.write('1'+'\t'+cpt+'\t'+"\""+s+"\""+'\n')
+                        if len(re.findall(cpt,s)) > 1:
+                            logfile.write(cpt+":Mutiple occurence in:"+s+"\n")
                         
+        pipe = os.popen("python wrapper.py "+outdir+" negex_out "+f2+'_negexinput.txt','w',1) 
 if __name__ == '__main__':
+    
     negex_input()
     
+                
         
 
+
+                
             
 
 
