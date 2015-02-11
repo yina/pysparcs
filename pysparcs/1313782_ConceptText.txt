@@ -1,0 +1,160 @@
+Abdominal
+Alcohol
+Alzheimer's disease
+BP
+Bowel
+Bowel sounds
+CARDIAC
+CHOLECYSTECTOMY
+CURB
+Cardiovascular
+Ceftriaxone
+Chest
+Chief Complaint
+Complaint
+Conjunctivae
+Discussion
+Disease
+Disorder
+Dizziness
+Effort
+Empyema
+Eyes
+F
+Family History
+Family history
+HERNIA
+HERNIA REPAIR
+HERNIA REPAIR VENTRAL HERNIA REPAIR
+Head
+Heart
+Heart Disease
+Heart Disease Mother Neurological Disorder
+Hemodynamic instability
+History
+Hypoxia
+Independent
+Insomnia
+Left arm
+Lower extremity
+Lower extremity cellulitis with an ulcer
+Lung
+Lung abscess
+Medical History
+Memory
+Memory loss
+Mouth
+Neck
+Necrotizing pneumonia
+Neurological Disorder
+Normal
+Nursing
+Observation
+Oral
+Oropharynx
+PCP
+PMH
+Pain
+Pain Score
+Past Medical History
+Past medical history
+Patient Position
+Pneumonia
+Problem
+Pt
+Pupils
+REPAIR
+SIRS
+STENT PLACEMENT
+Service
+Sickle-cell
+Sickle-cell pain crisis
+Signs
+Sitting
+Skin
+Smoker
+Social history
+Source
+Surgical
+TB
+THYROIDECTOMY
+Throat
+Triage
+UMBILICAL HERNIA
+UMBILICAL HERNIA REPAIR
+UMBILICAL HERNIA REPAIR VENTRAL HERNIA
+UMBILICAL HERNIA REPAIR VENTRAL HERNIA REPAIR
+VENTRAL HERNIA
+Vital Signs
+WBC
+abdominal
+abdominal pain
+abscess
+affect
+arm
+arms
+ceftriaxone
+cell
+cellulitis
+condition
+constipation
+cough
+crisis
+diagnostic
+diarrhea
+disease
+distension
+distress
+dizziness
+edema
+extremity
+female
+fevers
+findings
+heart
+heart sounds
+history
+instability
+left shift
+legs
+management
+medical history
+mental status
+mood
+murmur
+nausea
+normal
+normal and breath sounds
+normal mood
+numbness
+nursing
+observation
+pain
+pain The current pain management
+pain crisis
+pain management
+performing
+persistence
+pneumonia
+pregnancy
+primary
+pt
+rales
+rash
+respiratory distress
+sepsis
+service
+stomach
+tenderness
+test
+test results
+ulcer
+upset
+upset stomach
+vision
+vomiting
+weakness
+weakness of her arms
+weakness of her arms or legs
+wheezes
+yes

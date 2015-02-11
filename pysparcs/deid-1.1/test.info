@@ -1,0 +1,243 @@
+Patient 1	Note 1
+0	0	# T
+25	32	# Patient 	Last Name (ambig)
+72	75	# few 	Last Name (ambig)
+97	101	# pain.	Last Name (ambig)
+104	106	# no 	Last Name (ambig)
+130	136	# states 	Last Name (ambig)
+141	143	# NG 	Last Name (ambig)
+208	215	# patient,	Last Name (ambig)
+217	224	# medical 
+225	232	# records 	Last Name (ambig)
+252	254	90 	Age over 90	Age over 90
+255	257	# yo 	MedicalPhrase	Last Name (ambig)
+267	271	# afib,
+273	276	# cad 
+280	285	# stent,	Last Name (ambig)
+287	289	# pe/
+297	305	# coumadin,
+307	310	# hld,
+312	316	# copd,
+318	321	# chf 
+326	330	# most 	Last Name (ambig)
+386	388	# ng 	Last Name (ambig)
+413	417	# well,	Last Name (ambig)
+419	422	# was 
+462	467	# doing 	Last Name (ambig)
+468	472	# well 	Last Name (ambig)
+476	480	# home,	Last Name (ambig)
+482	489	# passing 
+490	493	# gas,
+495	497	# no 	Last Name (ambig)
+507	511	# pain 	Last Name (ambig)
+533	538	# while 	Last Name (ambig)
+539	546	# walking 	Last Name (ambig)
+558	564	# living 	Last Name (ambig)
+565	569	# room 	Last Name (ambig)
+619	624	# blood 	Last Name (ambig)
+630	634	# back 	Last Name (ambig)
+666	668	# No 	Last Name (ambig)
+688	695	# Holding 	Last Name (ambig)
+708	713	# nares 	Last Name (ambig)
+730	732	# No 	Last Name (ambig)
+733	738	# light 	Last Name (ambig)
+761	765	# pain 	Last Name (ambig)
+771	775	# Past 
+818	823	# heart 	Last Name (ambig)
+881	886	# stent 	Last Name (ambig)
+901	908	# Comment:	Last Name (ambig)
+1019	1023	# deep 	Last Name (ambig)
+1024	1028	# vein 	Last Name (ambig)
+1123	1128	# heart 	Last Name (ambig)
+1157	1162	# heart 	Last Name (ambig)
+1418	1423	# STENT 	Last Name (ambig)
+1459	1466	# Patient 	Last Name (ambig)
+1482	1486	List:	Last Name (ambig)	Name (NI)
+1491	1495	# ASHD 
+1514	1519	# heart 	Last Name (ambig)
+1575	1580	# stent 	Last Name (ambig)
+1647	1651	# deep 	Last Name (ambig)
+1652	1656	# vein 	Last Name (ambig)
+1708	1713	# heart 	Last Name (ambig)
+1765	1769	# deep 	Last Name (ambig)
+1770	1777	# vessels 	Last Name (ambig)
+1790	1795	# lower 	Last Name (ambig)
+1897	1902	# heart 	Last Name (ambig)
+1991	1997	# kidney 	Last Name (ambig)
+2007	2012	# stage 	Last Name (ambig)
+2029	2032	# min 	Female First Name (ambig)	Last Name (ambig)
+2064	2069	# agent 	Last Name (ambig)
+2090	2095	# blood 	Last Name (ambig)
+2112	2119	# Colitis,
+2121	2130	# enteritis,
+2190	2195	# small 	Last Name (ambig)
+2225	2228	# due 	Last Name (ambig)
+2232	2237	# blood 	Last Name (ambig)
+2238	2242	# loss 	Last Name (ambig)
+2268	2273	# Heart 	Last Name (ambig)
+2293	2299	# Sudden 
+2300	2305	# Death 
+2318	2325	Comment:	Last Name (ambig)	Name (NI)
+2327	2335	# possibly 
+2374	2379	# Never 	Last Name (ambig)
+2380	2386	# Smoker 	Last Name (ambig)
+2420	2422	# No 	Last Name (ambig)
+2824	2829	# Vital 	Last Name (ambig)
+2830	2835	# Signs 	Last Name (ambig)
+2847	2851	# Temp 	Last Name (ambig)
+2852	2860	05/21/13 	Month/Day/Year
+2889	2893	# Temp 	Last Name (ambig)
+2901	2909	05/21/13 	Month/Day/Year
+2929	2934	# Heart 	Last Name (ambig)
+2940	2948	05/21/13 	Month/Day/Year
+2963	2968	# Heart 	Last Name (ambig)
+2981	2989	05/21/13 	Month/Day/Year
+3013	3021	05/21/13 	Month/Day/Year
+3039	3047	05/21/13 	Month/Day/Year
+3082	3090	05/21/13 	Month/Day/Year
+3096	3101	# Right 	Last Name (ambig)
+3102	3105	# arm 	Last Name (ambig)
+3121	3129	05/21/13 	Month/Day/Year
+3150	3157	# Patient 	Last Name (ambig)
+3167	3175	05/21/13 	Month/Day/Year
+3199	3207	05/21/13 	Month/Day/Year
+3222	3226	# Pain 	Last Name (ambig)
+3227	3232	# Score:	Last Name (ambig)
+3238	3240	# No 	Last Name (ambig)
+3241	3245	# pain 	Last Name (ambig)
+3300	3306	# person,	Last Name (ambig)
+3308	3313	# place,	Last Name (ambig)
+3337	3341	# well-	Last Name (ambig)
+3356	3360	# well-	Last Name (ambig)
+3382	3386	# Head:	Last Name (ambig)
+3439	3445	# normal 	Location (ambig)
+3458	3464	# normal.	Location (ambig)
+3477	3482	# equal,
+3484	3489	# round,	Last Name (ambig)
+3507	3512	# light.	Last Name (ambig)
+3522	3528	# Normal 	Location (ambig)
+3529	3534	# range 	Last Name (ambig)
+3551	3557	# supple.	Last Name (ambig)
+3577	3583	# Normal 	Location (ambig)
+3636	3642	# normal 	Location (ambig)
+3647	3653	# breath 	Last Name (ambig)
+3661	3667	# normal.	Location (ambig)
+3705	3711	# normal.	Location (ambig)
+3732	3738	# Normal 	Location (ambig)
+3739	3744	# range 	Last Name (ambig)
+3779	3784	# alert 	Last Name (ambig)
+3801	3807	# person,	Last Name (ambig)
+3809	3814	# place,	Last Name (ambig)
+3830	3833	# has 	Last Name (ambig)
+3834	3840	# normal 	Location (ambig)
+3867	3871	# warm 	Last Name (ambig)
+3876	3879	# dry.	Last Name (ambig)
+3889	3894	# blood 	Last Name (ambig)
+3907	3912	# nares 	Last Name (ambig)
+3917	3921	# lips.	Last Name (ambig)
+3961	3970	# sentences,
+3972	3976	# slow 
+3985	3988	# red 	Last Name (ambig)
+4004	4008	# nose,	Last Name (ambig)
+4010	4012	# no 	Last Name (ambig)
+4043	4043	#  
+4055	4059	# Plan:	Last Name (ambig)
+4061	4063	90 	Age over 90	Age over 90
+4064	4066	# yo 	MedicalPhrase	Last Name (ambig)
+4081	4084	# asa/	Male First Name (ambig)	Last Name (ambig)
+4115	4118	# day 	Last Name (ambig)
+4169	4171	# No 	Last Name (ambig)
+4194	4199	# Check 	Last Name (ambig)
+4227	4233	mystra 	Hospital
+4277	4281	# test 	Last Name (ambig)
+4343	4351	# previous 
+4360	4367	# records:	Last Name (ambig)
+4402	4407	# other 	Last Name (ambig)
+4417	4424	# patient:	Last Name (ambig)
+4452	4460	# previous 
+4469	4476	# records:	Last Name (ambig)
+4495	4502	# patient 	Last Name (ambig)
+4526	4529	yes 	Name10 (NameIs)
+4531	4542	# Independent 
+4543	4556	# visualization 
+4560	4565	# image,
+4567	4574	# tracing,
+4576	4578	# or 	Last Name (ambig)
+4603	4607	# care 	Last Name (ambig)
+4626	4633	# Patient 	Last Name (ambig)
+4656	4660	Lola 	Female First Name (un)	Last Name (un)	Name6 (MD)	First Name4 (NamePattern1)	First Name8 (NamePattern2)
+4661	4667	Martin,	Female First Name (ambig)	Male First Name (un)	Male First Name (ambig)	Last Name (popular/ambig)	Last Name (ambig)	Male First Name (popular/ambig)	Location (ambig)	Name8 (MD)	Last Name (NamePattern1)
+4669	4671	# MD 
+4683	4691	05/21/13 	Month/Day/Year
+4697	4697	#  
+4753	4760	# patient?	Last Name (ambig)
+4771	4783	# presentation,
+4785	4791	# please 
+4792	4795	# see 	Last Name (ambig)
+4820	4824	# care 	Last Name (ambig)
+4845	4852	# summary,
+4854	4859	Ileen 	Female First Name (un)	First Name4 (NamePattern1)	First Name8 (NamePattern2)
+4860	4866	Carole 	Female First Name (un)	Doctor First Name	Last Name (NamePattern1)
+4867	4869	# is 
+4872	4874	90 	Age over 90	Age over 90
+4915	4919	# last 	Last Name (ambig)
+4920	4925	# night,	Last Name (ambig)
+4927	4931	# seen 	Last Name (ambig)
+4935	4938	# ENT,
+4940	4945	# found 	Last Name (ambig)
+5062	5067	# other 	Last Name (ambig)
+5091	5095	# Past 
+5139	5144	# other 	Last Name (ambig)
+5209	5214	# other 	Last Name (ambig)
+5280	5285	# other 	Last Name (ambig)
+5324	5329	# Vital 	Last Name (ambig)
+5330	5335	# Signs:	Last Name (ambig)
+5340	5348	05/22/13 	Month/Day/Year
+5369	5374	# Pulse:	Last Name (ambig)
+5381	5385	# Temp:	Last Name (ambig)
+5431	5435	# Temp 	Last Name (ambig)
+5444	5447	# Max:	Male First Name (ambig)
+5468	5472	# Pain 	Last Name (ambig)
+5473	5478	# Score:	Last Name (ambig)
+5485	5490	# Worst 	Last Name (ambig)
+5491	5495	# pain 	Last Name (ambig)
+5510	5514	# exam,
+5516	5519	# the 
+5520	5527	# patient 	Last Name (ambig)
+5531	5536	# alert,	Last Name (ambig)
+5538	5544	# stable,	Last Name (ambig)
+5546	5553	# febrile,
+5555	5559	# with 
+5577	5582	# place.	Last Name (ambig)
+5591	5598	# patient 	Last Name (ambig)
+5599	5603	# will 	Male First Name (ambig)	Last Name (ambig)
+5664	5671	# patient 	Last Name (ambig)
+5693	5697	# home 	Last Name (ambig)
+5780	5787	# patient 	Last Name (ambig)
+5788	5792	# will 	Male First Name (ambig)	Last Name (ambig)
+5814	5817	# has 	Last Name (ambig)
+5818	5820	# no 	Last Name (ambig)
+5821	5826	# fever,
+5828	5834	# normal 	Location (ambig)
+5835	5840	# vital 	Last Name (ambig)
+5841	5846	# signs 	Last Name (ambig)
+5857	5863	# better.	Last Name (ambig)
+5873	5880	# patient 	Last Name (ambig)
+5881	5885	# will 	Male First Name (ambig)	Last Name (ambig)
+5901	5910	# hypoxemic,
+5912	5923	# hypotensive,
+5925	5927	# or 	Last Name (ambig)
+5928	5931	# has 	Last Name (ambig)
+5932	5937	# other 	Last Name (ambig)
+5970	5974	# plan 	Last Name (ambig)
+5975	5978	# has 	Last Name (ambig)
+5979	5983	# been 	Last Name (ambig)
+6003	6010	# patient.	Last Name (ambig)
+6020	6029	# patient's 	Last Name (ambig)
+6038	6042	# care 	Last Name (ambig)
+6043	6052	# physician,
+6054	6060	Philip 	Male First Name (un)	Last Name (un)	Male First Name (popular/ambig)	Name6 (MD)	Name10 (NameIs)	First Name4 (NamePattern1)
+6061	6067	Mystra,	Name8 (MD)	Name11 (NameIs)	Last Name (NamePattern1)
+6069	6071	# MD,
+6073	6076	# has 	Last Name (ambig)
+6077	6081	# been 	Last Name (ambig)

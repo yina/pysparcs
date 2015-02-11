@@ -3,7 +3,7 @@
 import re
 import sys
 import click
-#import subprocess
+import subprocess
 import os
 
 @click.command()
@@ -15,11 +15,20 @@ import os
 
 
 def negex_input(inputdir,f1,f2,outdir):
-
-# check if negex exists, modify the path as needed.
-    if os.path.exists("/Users/yu/Documents/negex.python") != True:
-        print "Please download negex."
+    
+#    p = subprocess.checkoutput(["echo $PATH"], shell = True)
+#    path_var = p.stdout.read()
+#    print path_var
+#    if "negex.python" not in path_var:
+#        print "Please download negex.python and add to PATH"
+#    else:
+        
+    cwd = os.getcwd()
+    if os.path.exists(cwd+"/negex.python") != True:
+        print "Please download negex to current directory."
     else:
+
+        negex_path = os.path.dirname(os.path.realpath("negex.python"))
         file1 = open(inputdir+"/"+f1+".txt","r")
         file2 = open(inputdir+"/"+f2+".txt","r")
         
@@ -43,7 +52,7 @@ def negex_input(inputdir,f1,f2,outdir):
                         if len(re.findall(cpt,s)) > 1:
                             logfile.write(cpt+":Mutiple occurence in:"+s+"\n")
                         
-        pipe = os.popen("python wrapper.py "+outdir+" negex_out "+f2+'_negexinput.txt','w',1) 
+        pipe = os.popen("python "+cwd+"/negex.python/wrapper.py "+outdir+" negex_out "+f2+'_negexinput.txt','w',1) 
 if __name__ == '__main__':
     
     negex_input()
