@@ -1,5 +1,5 @@
  #!/usr/bin/perl
- 
+
 #**************************************************************************************************************
 #file: deid.pl	 Original author: M. Douglass 2004	
 #Last revised:    Apr 2009	DeID 1.1
@@ -62,8 +62,6 @@
 # Declaring some variables for algorithm run configuration
 
 # Variables to switch on/off filter functions
-# Yu 12/30/14 add "my" before global variables
-
 $allfilters = "";
 $ssnfilter = "";
 $urlfilter = "";
@@ -78,8 +76,8 @@ $us_state_filter = "";
 $ds_specific_filter = ""; #filter for discharge summmary specific patterns
 $gs_specific_filter = ""; #filter for gold std specific patterns
 
-$offset; # positive date shift in number of days
-$comparison = ""; # 1=comparison with gold standard, 0=no comparison with gold standard
+my $offset; # positive date shift in number of days
+my $comparison = ""; # 1=comparison with gold standard, 0=no comparison with gold standard
 
 # Variables to switch on/off dictionaries/lists
 $alllists = "";
@@ -241,14 +239,12 @@ foreach $title (@titles){
 
 ######################################################################################
 # If the correct number of input argument is provided, sets the input and output filenames.
-if ($#ARGV == 2) { 
-    $outputdir = $ARGV[2];
-	$data_file = "$ARGV[0].text";      # data_file: input file
-    #Yu 12/29/14, change output directory
-    $output_file = "./".$outputdir."/$ARGV[0].phi";     # output_file: file containing PHI locations
-    $debug_file = "./".$outputdir."/$ARGV[0].info";     # debug_file: file used for debugging, contains PHI and non-PHI locations
-    $deid_text_file = "./".$outputdir."/$ARGV[0].res";  # deid_text_file: de-identified text file
-    $gs_file = "$/".$outputdir."/ARGV[0].deid";        # gs_file: Gold Standard of the input file
+if ($#ARGV == 1) { 
+    $data_file = "$ARGV[0].text";      # data_file: input file
+    $output_file = "$ARGV[0].phi";     # output_file: file containing PHI locations
+    $debug_file = "$ARGV[0].info";     # debug_file: file used for debugging, contains PHI and non-PHI locations
+    $deid_text_file = "$ARGV[0].res";  # deid_text_file: de-identified text file 
+    $gs_file = "$ARGV[0].deid";        # gs_file: Gold Standard of the input file
 
 
     print "\n*******************************************************************************************************************\n";
@@ -1988,11 +1984,10 @@ sub url {
 
 sub ssn {
     $text = $_[0];   
+     
     if ($ssnfilter =~ /y/) {
-		#Yu 12/30/14 add more possible types  of ssn
-	while ($text =~ /\b\d\d\d([\d- \/]?)\1\d\1\1\d\d([\d\b]?)/g) {	
-
-		my $st = length($`);
+	while ($text =~ /\b\d\d\d([- \/]?)\d\d\1\d\d\d\d\b/g) {
+	    my $st = length($`);
 	    my $key = "$st-".($st+length($&));
 	    addType ($key, "Social Security Number");
 	}
@@ -5406,7 +5401,6 @@ sub yearWithContextCheck {
 }
 
 #end yearWithContextCheck()
-
 
 
 
